@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+ 
+}
+body{
+    background-color: rgb(7, 4, 4);
+}
+.bg{
+    height:100vh ;
+    background-image: url(darkbg.jpg) ;
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+nav{
+    position: fixed;
+    background-color: rgb(5, 5, 5);
+    display: inline-block;
+    width: 100%;
+}
+nav .title h1{
+    color:rgb(250, 212, 87);
+    font-size: xx-large;
+    text-align: center;
+}
+.navbar{
+    color: rgb(248, 241, 238);
+    font-size: large;
+    font-weight: 100;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    padding: 10px;
+    margin-left: 25%;
+    font-size: larger;
+}
+li a{
+    color: rgb(202, 218, 193);
+    text-decoration: none;
+}
+ li a:hover{
+    text-decoration: none;
+    color: rgb(11, 14, 11);
+    transition: 0.5s;
+    background-color:  rgb(240, 243, 33);
+    padding: 5px;
+    border-radius: 10%;
+    
+}
+.pro hr{
+    background-color: aliceblue;
+}
+.ho h1{
+    color: rgb(212, 231, 43);
+    overflow: none;
+    font-size: xxx-large;
+    font-weight: 200;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+.ho p{
+    color: burlywood;
+    padding: 5px;
+    margin-left: 65%;
+}
+.ho button{
+    color: rgb(187, 115, 7);
+    padding:5px;
+    margin-top: 30px;
+    margin-left: 70%;
+    border: none;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(80, 76, 76);
+    text-decoration: none;
+    width: 120px;
+}
+.ho button a{
+    color: rgb(1, 3, 3);
+    border: none;
+    text-decoration: none;
+}
+.ho button :hover{
+    color: rgb(199, 5, 206);
+    transition: 0.6s;
+}
+hr{
+    color: aliceblue;
+}         
+.pro{
+    padding: 30px;
+    margin: 25px;
+}
+
+.pro h1{
+    color: rgb(245, 238, 238);
+    font-size: xxx-large;
+    padding: 15px;
+    text-align: center;
+}
+.box{
+    color: rgb(241, 234, 234);
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    margin-left: 45px;
+    border: none;
+    margin: 10px;
+}
+.box:hover{
+    background-color: black;
+    color: aliceblue;
+    border-style:inset;
+    transition: 0.8s;
+}
+.box p{
+    color:rgb(94, 92, 92);
+}
+.box span p{
+    color: blanchedalmond;
+}
+.cat{
+    padding: 20px;
+    margin: 20px;
+}
+.cat h1{
+    color: aliceblue;
+    font-size: xxx-large;
+    text-align: center;
+}
+.cat h2{
+    color: rgb(207, 241, 112);
+    font-size: xx-large;
+}
+.cat1{
+    margin: 20px;
+    padding: 20px;
+    margin-left: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(224, 240, 168);
+}
+.cat1 p{
+    color:rgb(94, 92, 92);
+}
+.cat1 span p{
+    color: rgb(141, 140, 139);
+}
+.cat1 h4{
+    color: rgb(230, 180, 17);
+}
+.cat1:hover{
+    background-color: rgb(238, 231, 231);
+    color: rgb(33, 111, 180);
+    border-style: inherit;
+    transition: 0.6s;
+}
+.set{
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+    display: inline;
+    
+}
+.set h4{
+    text-align: center;
+}
+.set p{
+    text-align: center;
+    color:rgb(119, 121, 121);
+}
+.h4 {
+    padding: 10px;
+}
+.h4 h4{
+    color: rgb(209, 55, 196);
+    text-align: center;
+}
+.co button{
+    color: rgb(14, 17, 9);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 40%;
+    border: none;
+}
+.co button a{
+    color: rgb(1, 3, 3);
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.co button :hover{
+    color: rgb(231, 190, 8);
+}
+.login{
+    width: 350px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 55px;
+    box-shadow: 0 0 17px rgb(242, 241, 245);
+    margin-left: 500px;
+}
+#login h1{
+    color: rgb(43, 3, 187);
+    margin: 60px;
+    padding: 5px;
+    font-size: xxx-large;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-left: 90px;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+}
+#login .head h2{
+    color: rgb(90, 4, 54);
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    text-align: center;
+}
+.main input, button{
+    width: 300px;
+    height: 40px;
+    border: 10px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(9, 44, 9);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main button{
+    padding: 0%;
+    background-color: rgb(240, 122, 240);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.main button :hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: brown;
+}
+.main input :hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: brown;
+}
+.main span{
+    position: relative;
+}
+.main i{
+    position: absolute;
+    left: 15px;
+    color: rgb(26, 26, 184);
+    font-size: 16px;
+    top: 2px;
+}
+.abb h1{
+    font-size: xx-large;
+    color: rgb(245, 238, 238);
+    padding: 15px;
+}
+.Abb1{
+    display: inline-table;
+   margin-left: 40px;
+   padding: 0px;
+}
+.abb,p{
+    color: rgb(156, 154, 154);
+    margin:5px 10px;
+    padding: 5px;
+}
+.abb,h3{
+    color: aliceblue;
+    margin:5px 10px;
+    padding: 5px;
+}
+
+
+
+

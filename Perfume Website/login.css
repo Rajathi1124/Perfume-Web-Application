@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://www.perfumedirect.com/cdn/shop/articles/Top_7_Luxury_Perfume_Brands_For_Women_and_Their_Best_Scents_BLOG_1024x1024.png?v=1682432203);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 350px;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 55px;
+    box-shadow: 0 0 17px rgb(239, 238, 241);
+    margin-left: 500px;
+}
+#login h1{
+    color: rgb(245, 171, 11);
+    margin: 60px;
+    padding: 5px;
+    font-size: xxx-large;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-left: 110px;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+}
+#login .head h2{
+    color: rgb(243, 9, 79);
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    text-align: center;
+}
+.main input, button{
+    width: 300px;
+    height: 40px;
+    border: 10px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(9, 44, 9);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main button{
+    padding: 0%;
+    background-color: rgb(201, 195, 201);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.main button :hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: brown;
+}
+.main input :hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: brown;
+}
+.main span{
+    position: relative;
+}
+.main button :hover{
+    background-color: aqua;
+    color: blueviolet;
+}
